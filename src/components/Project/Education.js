@@ -60,7 +60,7 @@ const Education = () => {
               href="https://review-website-khudroo.netlify.app/"
               target="_blank"
             >
-              Live Website
+              Live
             </a>
           </button>
           <button type="button" className="btn">
@@ -69,7 +69,7 @@ const Education = () => {
               href="https://github.com/khudroo/review-website"
               target="_blank"
             >
-              Client Side
+              Client
             </a>
           </button>
         </div>

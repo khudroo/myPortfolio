@@ -60,7 +60,7 @@ const Haba = () => {
               href="https://haba-kids-toys.web.app/"
               target="_blank"
             >
-              Live Website
+              Live
             </a>
           </button>
           <button type="button" className="btn">
@@ -69,7 +69,7 @@ const Haba = () => {
               href="https://github.com/khudroo/haba-kids-toys-client"
               target="_blank"
             >
-              Client Side
+              Client-S
             </a>
           </button>
           <button type="button" className="btn">
@@ -78,7 +78,7 @@ const Haba = () => {
               href="https://github.com/khudroo/haba-kids-toys-server"
               target="_blank"
             >
-              Server Side
+              Server-S
             </a>
           </button>
         </div>

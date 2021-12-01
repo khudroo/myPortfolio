@@ -64,7 +64,7 @@ const Travel = () => {
               href="https://hw-health-care-10.web.app/"
               target="_blank"
             >
-              Live Website
+              Live 
             </a>
           </button>
           <button type="button" className="btn">
@@ -73,7 +73,7 @@ const Travel = () => {
               href="https://github.com/khudroo/tourism-website"
               target="_blank"
             >
-              Client Side
+              Client-S
             </a>
           </button>
           <button type="button" className="btn">
@@ -82,7 +82,7 @@ const Travel = () => {
               href="https://github.com/khudroo/tourism-website-server"
               target="_blank"
             >
-              Server Side
+              Server-S
             </a>
           </button>
         </div>
