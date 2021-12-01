@@ -8,7 +8,7 @@ const Haba = () => {
   return (
     <div className="container">
       <div className="">
-        <h1 className="text-center text-dark p-4">
+        <h1 className="text-center p-4">
           Haba Kids Toys - Product Sales
         </h1>
         <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -39,7 +39,7 @@ const Haba = () => {
         </div>
       </div>
       <div className="pt-5">
-        <h4 className="card-title text-dark">Project Overview</h4>
+        <h4 className="card-title">Project Overview</h4>
         <ul className="list-group">
           <li className="list-group-item">Vanilla Bootstrap</li>
           <li className="list-group-item">React, React Router</li>
