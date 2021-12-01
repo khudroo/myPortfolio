@@ -12,10 +12,24 @@ li.nav__items {
 .home__content {
   padding: 125px 0px;
 }
-.logo img{
+.logo img {
   width: 30%;
 }
 
+#home nav {
+  padding: 20px 0;
+  background: #191919;
+}
+
+#home li .c__link {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#home li .c__link:hover {
+  color: #f9004d;
+}
 
 h1.home__text {
   font-size: 18px;

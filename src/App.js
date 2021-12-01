@@ -1,22 +1,22 @@
 import "./App.css";
-import About from "./components/About/About";
-import Home from "./components/Home/Home";
-import Service from "./components/Service/Service";
-import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import Project from "./components/Project/Project";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import HomeWrapper from "./components/HomeWrapper/HomeWrapper";
+import Haba from "./components/Project/Haba";
+import Education from "./components/Project/Education";
+import Travel from "./components/Project/Travel";
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      <About></About>
-      {/* <Service></Service> */}
-      <Project></Project>
-      {/* <Blog></Blog> */}
-      <Contact></Contact>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomeWrapper />} />
+          <Route path="/haba" element={<Haba />} />
+          <Route path="/travel" element={<Travel />} />
+          <Route path="/education" element={<Education />} />
+        </Routes>
+      </BrowserRouter>
+      ,
     </div>
   );
 }
