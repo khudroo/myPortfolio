@@ -51,6 +51,11 @@ function Home() {
                   Projects
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link c__link" href="#Blog">
+                  Blogs
+                </a>
+              </li>
 
               <li className="nav-item">
                 <a
@@ -78,7 +83,7 @@ function Home() {
                 <button className="about btn pointer">Download Cv</button>
               </a>
 
-              <a href="#Contact">
+              <a href="#contact">
                 <button className="about btn pointer">Hire Me</button>
               </a>
             </div>

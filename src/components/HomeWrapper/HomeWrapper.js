@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Home from "../Home/Home";
@@ -12,7 +13,7 @@ const HomeWrapper = () => {
       <About></About>
       {/* <Service></Service> */}
       <Project></Project>
-      {/* <Blog></Blog> */}
+      <Blog></Blog>
       <Contact></Contact>
       <Footer></Footer>
     </div>
