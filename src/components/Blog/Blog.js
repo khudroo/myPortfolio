@@ -8,7 +8,7 @@ function Blog() {
   return (
     <div className="container component__space" id="Blog">
       <div className="row heading">
-        <h1 className="heading  text-dark">Blogs is comming soon..........</h1>
+        <h1 className="heading">Blogs is comming soon..........</h1>
       </div>
     </div>
   );
