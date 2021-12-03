@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 import logo from "../../img/logo.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   // Toogle Menu
@@ -13,8 +14,7 @@ function Home() {
             <img
               src={logo}
               alt=""
-              width="60"
-              height="30"
+              width="50"
               className="d-inline-block align-text-top"
             />
           </a>
@@ -52,9 +52,9 @@ function Home() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link c__link" href="#Blog">
+                <Link className="nav-link c__link" to="blog">
                   Blogs
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">

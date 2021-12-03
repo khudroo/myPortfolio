@@ -41,10 +41,10 @@ function Contact() {
                 </p>
               </div>
               <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="name" className="contact name" placeholder="Your name *" />
-                <input type="email" name="email" className="contact email" placeholder="Your Email *" />
-                <input type="text" name="subject" className="contact subject" placeholder="Write a Subject" />
-                <textarea name="message" id="message" placeholder="Write Your message" />
+                <input type="text" required name="name" className="contact name" placeholder="Your name *" />
+                <input type="email" required name="email" className="contact email" placeholder="Your Email *" />
+                <input type="text" required name="subject" className="contact subject" placeholder="Write a Subject" />
+                <textarea required name="message" id="message" placeholder="Write Your message" />
                 <button className="btn contact pointer" type="submit">
                   Submit
                 </button>

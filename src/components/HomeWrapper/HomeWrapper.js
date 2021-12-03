@@ -13,7 +13,6 @@ const HomeWrapper = () => {
       <About></About>
       {/* <Service></Service> */}
       <Project></Project>
-      <Blog></Blog>
       <Contact></Contact>
       <Footer></Footer>
     </div>
